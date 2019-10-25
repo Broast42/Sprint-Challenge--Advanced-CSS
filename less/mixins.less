@@ -1,1 +1,26 @@
 // Mixins Here
+.flexContainer(@direction, @justify, @align){
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.button(@bgColor, @textColor){
+    width: 30%;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 2.5%;
+    border: 1px solid @bgColor;
+    border-radius: 5px;
+    background: @bgColor;
+    color: @textColor;
+
+    &:hover{
+        color: @bgColor;
+        background: @textColor;
+        
+    }
+
+
+}

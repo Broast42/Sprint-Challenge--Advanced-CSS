@@ -145,6 +145,9 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #23293B;
 }
+h1 {
+  font-size: 3.4rem;
+}
 h2 {
   font-size: 3.2rem;
 }
@@ -159,6 +162,30 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+nav {
+  width: 100%;
+  background: #F6F6F6;
+  color: #454A59;
+  border-bottom: 2px solid #F1F1F1;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+nav .nav-links {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1%;
+}
+nav .nav-links a {
+  text-decoration: none;
+  color: #454A59;
+  font-size: 1.6rem;
 }
 footer {
   color: #22283B;
@@ -211,6 +238,20 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  width: 30%;
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 2.5%;
+  border: 1px solid #22283A;
+  border-radius: 5px;
+  background: #22283A;
+  color: #F6F6F6;
+}
+.home .walk .walk-text .btn:hover {
+  color: #22283A;
+  background: #F6F6F6;
 }
 .home .walk .walk-img {
   width: 46%;
