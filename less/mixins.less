@@ -1,4 +1,9 @@
 // Mixins Here
+.navFont(){
+    color: @nav-font;
+    padding: 1%;
+}
+
 .flexContainer(@direction, @justify, @align){
     display: flex;
     flex-direction: @direction;
@@ -20,6 +25,11 @@
         color: @bgColor;
         background: @textColor;
         
+    }
+
+    @media @phone{
+        width: 100%;
+        padding: 4.5%;
     }
 
 
