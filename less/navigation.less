@@ -1,1 +1,27 @@
 // Navigation code here
+
+nav{
+    width: 100%;
+    height: 90px;
+    background: @nav-bg;
+    border-bottom: 2px solid @nav-border;
+    .navFont();
+    .flexContainer(column, flex-start, center);
+    position: fixed;
+    top: 0;
+    opacity: 0.8;
+
+
+    .nav-links{
+        width: 350px;
+        .flexContainer(row, space-evenly, center);
+        margin-top: 1%;
+
+        a{
+            text-decoration: none;
+            .navFont();
+            font-size: 1.6rem;
+            
+        }
+    }
+}

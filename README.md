@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+An addaptive website will change as screen size gets smaller or larger but text size will not be effected. A fully responsive website will change text size according to a users settings on his/her pc and/or application.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first is when you design and style for mobile sized screens first. As you scale up you use min-with values in your media querries. When designing for desktop first you use max-with values as you scale down to smaller screen sizes.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+It sets the base line of font size to 10px. standard text size is 16px and 62.5% of that is 10px. This allows us to be more precise (and have to do less math) as 1rem is equal to 10px. Rem units and grow or shrink depending on users own settings allowing for much better responsivness.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing allows you to be much more precise in your styling. You can create variable that you can use over and over again. Nesting allows for easier specificity. mixins make it so much easier to re-use styles. Overall preprocessing keeps your code DRY and its like another language that is easier to write and gets compiled into regular css. 
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Parametric mixins are my favorite with one piece of less/css code you can create a mixin that allows you to use multiple variables/parameters that can change the way the mixin works and be used in multiple way. Like creating a mixin that not only puts flex on a contaner but can also alow you to use the same code to justify and align in any manner needed. There wasn't any part that I had trouble with I'm just glad to add these new tools to my toolbox. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
